@@ -49,7 +49,7 @@ public class Create_GistTest {
     			//Request headers
     			httpRequest.header("Content-Type","application/json");
     			//***************UPDATE WITH YOUR BEARER TOKEN****************
-    			httpRequest.header("Authorization","Bearer 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");
+    			httpRequest.header("Authorization","BjggggjlT3h0XDuDgBp2ezhfhjjcguTeSpOMi1stt13FLrz");
     			
     			PojoFname u= new PojoFname("");
     			u.setContent("PojoFname Student QA!");
@@ -93,7 +93,7 @@ public class Create_GistTest {
 		//Request headers
 		httpRequest.header("Content-Type","application/json");
 		//***************UPDATE WITH YOUR BEARER TOKEN****************
-		httpRequest.header("Authorization","Bearer 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");		
+		httpRequest.header("Authorization","Bearer BjggggjlT3h0XDuDgBp2ezhfhjjcguTeSpOMi1stt13FLrz");		
 		//Request Body
 		httpRequest.body(Payload.emptyContents()).log().all();
 		
@@ -126,7 +126,7 @@ public class Create_GistTest {
    
 @Test
    public void mandatoryUserAgentTest() {
-//	Response response=given().header("Authorization","Bearer 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").body(Payload.gistContents())
+//	Response response=given().header("Authorization","Bearer BjggggjlT3h0XDuDgBp2ezhfhjjcguTeSpOMi1stt13FLrz").body(Payload.gistContents())
 //	.when()
 //	.post("https://api.github.com/gists");
 //	response.prettyPrint();
@@ -145,7 +145,7 @@ public class Create_GistTest {
 		//Request headers
 		httpRequest.header("Content-Type","application/json");
 		//***************UPDATE WITH YOUR BEARER TOKEN****************
-		httpRequest.header("Authorization","Bearer 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");
+		httpRequest.header("Authorization","Bearer BjggggjlT3h0XDuDgBp2ezhfhjjcguTeSpOMi1stt13FLrz");
 		
 		
 	    //Disable user-agent header
@@ -172,7 +172,7 @@ public class Create_GistTest {
 	RestAssured.baseURI="https://api.github.com";
 	
 	RequestSpecification httpRequest= RestAssured.given();
-	httpRequest.header("Authorization","Bearer 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");
+	httpRequest.header("Authorization","Bearer BjggggjlT3h0XDuDfsdsgBp2ezhfhjjcguTrwweeSpOMi1stt13FLrz");
 	
 	Response response= httpRequest.request(Method.GET,"/gists");
 	//response.getBody().prettyPrint();
