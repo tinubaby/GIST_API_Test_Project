@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-22T12:24:18 PDT" name="Default suite" finished-at="2022-03-22T12:24:25 PDT" duration-ms="6152">
+    <groups>
+    </groups>
+    <test started-at="2022-03-22T12:24:18 PDT" name="Default test" finished-at="2022-03-22T12:24:25 PDT" duration-ms="6152">
+      <class name="Create_GistTest">
+        <test-method signature="createGistTest()[pri:0, instance:Create_GistTest@10feca44]" started-at="2022-03-22T12:24:18 PDT" name="createGistTest" finished-at="2022-03-22T12:24:25 PDT" duration-ms="6093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGistTest -->
+      </class> <!-- Create_GistTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
